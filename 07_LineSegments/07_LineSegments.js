@@ -179,8 +179,8 @@ function setupMouseEvents() {
                     updateText(textOverlay3, "Intersection Points: 1 Point 1: (" + intersects[0].toFixed(2) + ", " + intersects[1].toFixed(2) + ")");
                 }
                 else if (intersects.length == 4) {
-                    updateText(textOverlay3, "Intersection Points: 2 Points 1: (" + intersects[0].toFixed(2) + ", " + intersects[1].toFixed(2) + 
-                        ") 2: (" + intersects[2].toFixed(2) + ", " + intersects[3].toFixed(2) + ")");
+                    updateText(textOverlay3, "Intersection Points: 2 Point 1: (" + intersects[0].toFixed(2) + ", " + intersects[1].toFixed(2) + 
+                        ") Point 2: (" + intersects[2].toFixed(2) + ", " + intersects[3].toFixed(2) + ")");
                 }
             }
 
